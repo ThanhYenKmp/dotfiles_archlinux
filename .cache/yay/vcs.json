@@ -1,0 +1,38 @@
+{
+	"mcmojave-cursors": {
+		"github.com/vinceliuice/mcmojave-cursors": {
+			"protocols": [
+				"https"
+			],
+			"branch": "HEAD",
+			"sha": "7d0bfc1f91028191cdc220b87fd335a235ee4439"
+		}
+	},
+	"numix-circle-icon-theme-git": {
+		"github.com/numixproject/numix-icon-theme-circle.git": {
+			"protocols": [
+				"https"
+			],
+			"branch": "HEAD",
+			"sha": "9c92bf352339fec17855e2b0b11150d73015008b"
+		}
+	},
+	"numix-icon-theme-git": {
+		"github.com/numixproject/numix-icon-theme.git": {
+			"protocols": [
+				"https"
+			],
+			"branch": "HEAD",
+			"sha": "9ad1fefa8c0b5345156a16a3e453d978ea503e82"
+		}
+	},
+	"sddm-catppuccin-git": {
+		"github.com/khaneliman/sddm-catppuccin": {
+			"protocols": [
+				"https"
+			],
+			"branch": "HEAD",
+			"sha": "ffaad5c8964b52ccd92a80dfd3a7931c8b68c446"
+		}
+	}
+}

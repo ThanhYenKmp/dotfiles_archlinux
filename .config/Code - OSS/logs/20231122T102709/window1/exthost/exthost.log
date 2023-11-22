@@ -1,0 +1,12 @@
+2023-11-22 10:27:10.783 [info] Extension host with pid 28869 started
+2023-11-22 10:27:10.783 [info] Skipping acquiring lock for /home/thanhyen/.config/Code - OSS/User/workspaceStorage/e21aa41e7324f280565656a07ce40361.
+2023-11-22 10:27:10.865 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-22 10:27:11.131 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-22 10:27:11.162 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-22 10:27:11.233 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-22 10:27:11.299 [info] Eager extensions activated
+2023-11-22 10:27:11.331 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-22 10:27:11.333 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-22 10:27:11.352 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-11-22 10:27:36.657 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-22 10:27:36.660 [info] Extension host with pid 28869 exiting with code 0

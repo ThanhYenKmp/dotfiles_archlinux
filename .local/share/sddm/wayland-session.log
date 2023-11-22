@@ -1,0 +1,154 @@
+00:00:00.000 [INFO] [libseat] [libseat/backend/seatd.c:64] Could not connect to socket /run/seatd.sock: No such file or directory
+00:00:00.000 [INFO] [libseat] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping
+00:00:00.104 [INFO] [libseat] [libseat/libseat.c:73] Seat opened with backend 'logind'
+00:00:00.104 [INFO] [backend/session/session.c:109] Successfully loaded libseat session
+00:00:00.105 [INFO] [backend/backend.c:220] Found 1 GPUs
+00:00:00.105 [INFO] [backend/drm/backend.c:202] Initializing DRM backend for /dev/dri/card1 (i915)
+00:00:00.105 [INFO] [backend/drm/drm.c:249] Found 4 DRM CRTCs
+00:00:00.105 [INFO] [backend/drm/drm.c:207] Found 32 DRM planes
+00:00:00.107 [INFO] [render/egl.c:206] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_EXT_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+00:00:00.141 [INFO] [render/egl.c:355] Using EGL 1.5
+00:00:00.141 [INFO] [render/egl.c:356] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_protected_content EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+00:00:00.141 [INFO] [render/egl.c:358] Supported EGL device extensions: EGL_EXT_device_drm EGL_EXT_device_drm_render_node
+00:00:00.141 [INFO] [render/egl.c:360] EGL vendor: Mesa Project
+00:00:00.142 [INFO] [render/gles2/renderer.c:843] Creating GLES2 renderer
+00:00:00.142 [INFO] [render/gles2/renderer.c:844] Using OpenGL ES 3.2 Mesa 23.2.1-arch1.2
+00:00:00.142 [INFO] [render/gles2/renderer.c:845] GL vendor: Intel
+00:00:00.142 [INFO] [render/gles2/renderer.c:846] GL renderer: Mesa Intel(R) Xe Graphics (TGL GT2)
+00:00:00.142 [INFO] [render/gles2/renderer.c:847] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_AMD_performance_monitor GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_NV_pack_subimage GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_OES_viewport_array GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_NV_generate_mipmap_sRGB GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_debug_label GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_ANDROID_extension_pack_es31a GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_gpu_shader5 GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_render_snorm GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_norm16 GL_EXT_texture_view GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_NV_image_formats GL_NV_shader_noperspective_interpolation GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_gpu_shader5 GL_OES_primitive_bounding_box GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_EXT_blend_func_extended GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_shader_samples_identical GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_NV_fragment_shader_interlock GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clear_texture GL_EXT_clip_cull_distance GL_EXT_disjoint_timer_query GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_clip_control GL_EXT_color_buffer_half_float GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_texture_compression_bptc GL_EXT_texture_mirror_clamp_to_edge GL_KHR_parallel_shader_compile GL_NV_alpha_to_coverage_dither_control GL_EXT_EGL_image_storage GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_shadow_lod GL_INTEL_blackhole_render GL_MESA_framebuffer_flip_y GL_NV_compute_shader_derivatives GL_EXT_demote_to_helper_invocation GL_EXT_depth_clamp GL_EXT_texture_query_lod GL_MESA_bgra 
+00:00:00.165 [INFO] [backend/headless/backend.c:67] Creating headless backend
+00:00:00.165 [ERROR] [xwayland/sockets.c:63] Failed to bind socket @/tmp/.X11-unix/X0: Address already in use
+00:00:00.221 [INFO] [backend/drm/drm.c:1494] Scanning DRM connectors on /dev/dri/card1
+00:00:00.223 [INFO] [backend/drm/drm.c:1545] Found connector 'eDP-1'
+00:00:00.223 [INFO] [backend/drm/drm.c:1570] 'eDP-1' connected
+00:00:00.223 [INFO] [backend/drm/drm.c:1379] Detected modes:
+00:00:00.223 [INFO] [backend/drm/drm.c:1406]   1920x1080 @ 60.049 Hz (preferred)
+00:00:00.223 [INFO] [backend/drm/drm.c:1426] Physical size: 310x170
+00:00:00.223 [INFO] [backend/drm/drm.c:1545] Found connector 'HDMI-A-1'
+00:00:00.223 [INFO] [backend/drm/drm.c:1606] connector eDP-1: Requesting modeset
+00:00:00.225 [INFO] [backend/drm/drm.c:742] connector eDP-1: Modesetting with 1920x1080 @ 60.049 Hz
+00:00:01.373 [INFO] [backend/headless/backend.c:17] Starting headless backend
+00:00:01.447 [INFO] [backend/drm/drm.c:742] connector eDP-1: Modesetting with 1920x1080 @ 60.049 Hz
+00:00:01.498 [ERROR] [backend/drm/drm.c:729] connector eDP-1: Failed to page-flip output: a page-flip is already pending
+KXMessages used on non-X11 platform! This is an application bug.
+New PolkitAgentListener  0x56286405b920
+Adding new listener  PolkitQt1::Agent::Listener(0x56286409a1a0) for  0x56286405b920
+Listener online
+Authentication agent result: true
+00:00:01.566 [INFO] [xwayland/server.c:108] Starting Xwayland on :1
+ping: wttr.in: Temporary failure in name resolution
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+blueman-applet 22.42.54 WARNING  PluginManager:94 load_plugin: Failed to start plugin GameControllerWakelock: Only X11 platform is supported
+blueman-applet 22.42.54 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+
+(nm-applet:616): Gtk-CRITICAL **: 22:42:54.123: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (waybar:635): WARNING **: 22:42:54.165: Status Notifier Item with bus name ':1.6' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+blueman-applet 22.42.54 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+Error: "Socket file not found. Are you sure swww-daemon is running?"
+
+** (waybar:635): WARNING **: 22:42:54.442: Status Notifier Item with bus name ':1.6' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+thread 'main' panicked at rog-control-center/src/main.rs:207:79:
+called `Result::unwrap()` on an `Err` value: Zbus(MethodError(OwnedErrorName(ErrorName(Str(Owned("org.freedesktop.DBus.Error.ServiceUnknown")))), Some("The name org.asuslinux.Daemon was not provided by any .service files"), Msg { type: Error, sender: UniqueName(Str(Borrowed("org.freedesktop.DBus"))), reply-serial: 2, body: Signature("s") }))
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+
+(wofi:950): Gtk-WARNING **: 22:43:00.319: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node viewport, owner GtkViewport)
+[326 22:43:01.878681] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+00:00:15.456 [INFO] [xwayland/server.c:215] Restarting Xwayland (lazy)
+
+(wofi:1999): Gtk-WARNING **: 15:45:03.715: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node viewport, owner GtkViewport)
+[Parent 2029, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:2029): WARNING **: 15:45:07.342: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+
+[326 15:58:25.707048] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[326 15:58:25.707067] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[326 15:59:05.587918] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:05.587946] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:05.587958] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:05.587970] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:07.490684] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[326 15:59:07.490715] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[326 15:59:19.042147] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:19.042167] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:19.042179] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 15:59:19.042187] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 16:01:11.372564] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[326 16:01:11.372620] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[326 16:01:28.283601] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 16:01:28.366731] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 16:01:28.366780] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[326 16:01:28.366794] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+/bin/sh: line 1: /home/thanhyen/.config/hypr/scripts/Wofi.sh: No such file or directory
+/bin/sh: line 1: /home/thanhyen/.config/hypr/scripts/Wofi.sh: No such file or directory
+/bin/sh: line 1: /home/thanhyen/.config/hypr/scripts/Wofi.sh: No such file or directory
+/bin/sh: line 1: /home/thanhyen/.config/hypr/scripts/Wofi.sh: No such file or directory
+/bin/sh: line 1: /home/thanhyen/.config/hypr/scripts/QuickEdit.sh: No such file or directory
+
+(wofi:11017): Gtk-WARNING **: 16:16:22.292: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node viewport, owner GtkViewport)
+[Parent 11041, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+: 'glib warning', file /build/firefox/src/firefox-120.0/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:11041): WARNING **: 16:16:24.870: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Mutter.IdleMonitor was not provided by any .service files
+

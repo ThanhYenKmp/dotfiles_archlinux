@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-vnd.debian.binary-package
+Name=code_1.84.2-1699528352_amd64.deb
+Type=Link
+URL[$e]=file:$HOME/Downloads/code_1.84.2-1699528352_amd64.deb
+X-KDE-LastOpenedWith=kitty

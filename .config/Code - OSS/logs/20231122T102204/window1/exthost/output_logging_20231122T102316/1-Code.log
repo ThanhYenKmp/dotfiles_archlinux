@@ -1,0 +1,5 @@
+[Running] cd "/home/thanhyen/Desktop/C++/" && g++ Hi.cpp -o Hi && "/home/thanhyen/Desktop/C++/"Hi
+Hello
+
+[Done] exited with code=0 in 0.321 seconds
+
